@@ -1,0 +1,32 @@
+div#container {
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	width: 400px;
+	margin: 2px;
+	padding: 15px;
+}
+
+div#errors {
+	width: 400px;
+	margin:0 auto;
+}
+label {
+	float: left;
+	width: 140px;
+	text-align: left;
+	padding-top: 5px;
+}
+
+input, textarea {
+	padding: 3px;
+	margin: 3px;
+	border: 1px solid #bac5d6;
+	font: 10px Verdana, sans-serif;
+	background: #fff;
+}
+input.fout, textarea.fout {
+	border: 1px solid #FF0000;
+}
+
+label.fout {
+	color: #FF0000;
+}

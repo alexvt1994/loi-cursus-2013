@@ -1,0 +1,7 @@
+Administrator:
+User = admin
+Pass = admin
+
+Demo-Gebruiker:
+User = demo
+Pass = demo

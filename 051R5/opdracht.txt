@@ -1,0 +1,31 @@
+Maak een PHP-script dat de uitslagen van een voetbalcompetitie kan bijhouden. Na afloop van een wedstrijd mogen de daarvoor geregistreerde personen de uitslag van de wedstrijd invoeren. Bij het openen van de site moet de stand in de competitie op het scherm worden getoond met daaronder de uitslagen van de al gespeelde wedstrijden en de nog te spelen wedstrijden. Uw script mag hierbij uitgaan van één poule met voetbalteams.
+Geef gebruikers de mogelijkheid om een user aan te maken (zie ook de oefenopdracht 19-1).
+
+Er moeten minimaal de volgende tabellen worden gemaakt in de database "dbLOI":
+
+Een tabel voor het opslaan van de gebruikers.
+Een tabel voor het opslaan van de voetbalteams die deelnemen aan de competitie (naam, plaats, speelsterkte etc). Deze tabel mag u handmatig in PHPMyAdmin vullen met minimaal vijf teams die tegen elkaar spelen in één poule.
+Een tabel voor het opslaan van het competitieschema inclusief de uitslagen. Deze tabel bevat o.a. de speeldatum, het thuisspelend team (verwijzing naar de tabel met de voetbalteams), het uitspelend team (verwijzing naar de tabel met de voetbalteams), de score van de thuisspelers en de score van de uitspelers.
+Uw uitwerking moet aan de volgende voorwaarden voldoen:
+
+Welgevormde HTML-structuur.
+Geef het programma de titel "Inzendopdracht 051R5".
+Zorg voor een nette en duidelijke lay-out met een aantal plaatjes.
+Maak een centraal bestand waarin de gegevens voor de toegang tot de database staan.
+Maak meerdere bestanden.
+De username moet uit minimaal drie karakters bestaan.
+Het wachtwoord moet veilig worden opgeslagen in de tabel m.b.v. MD5 en bestaan uit minimaal acht karakters.
+Het e-mailadres moet met reguliere expressies worden getoetst op juistheid. Als het juist is, dan mag de user worden opgeslagen. Zo niet, dan moet er een melding worden getoond en moet de gebruiker het e-mailadres kunnen wijzigen.
+Als er foutieve gegevens zijn ingevoerd, dan moeten de al ingevulde waarden in het formulier blijven staan. Pas als de gegevens juist zijn en opgeslagen zijn, moet het formulier leeg worden gemaakt.
+Het e-mailadres moet eindigen op ".nl" en er moet uiteraard een @ in staan. Verder moet de domeinnaam (het gedeelte achter de @ en voor de .) uit minimaal twee karakters bestaan en ook de naam (het gedeelte voor de @) moet uit minimaal twee karakters bestaan.
+Een e-mailadres mag er alleen uitzien als <naam>@<domein>.nl. Andere e-mailadressen zijn ongeldig. <naam> en <domein> mogen alleen uit hoofd- en kleine letters bestaan.
+
+Maak gebruik van sessies, zodat er geen onbevoegde personen standen gaan bijwerken.
+Maak gebruik van redirecting.
+Zorg voor voldoende foutafhandeling.
+Vul het competitieschema m.b.v. een formulier. Tip: Maak lijsten van de ingevoerde teams die kunnen worden gekozen. De speeldata mag u zelf verzinnen.
+Bezoekers van de site zien de stand in de poule, de uitslagen van alle gespeelde wedstrijden en de nog te spelen wedstrijden. De poule moet worden gesorteerd met het team met de meeste punten bovenaan. De wedstrijden moeten op basis van gespeelde datums worden gesorteerd met de oudste bovenaan.
+De bezoekers zien verder nog de optie "Inloggen" op de site.
+Als iemand is ingelogd, ziet hij hetzelfde als iemand die niet ingelogd is met als extra de opties "Uitloggen" (i.p.v. "Inloggen"), "Schema opvoeren" en de datum van een nog niet gespeelde wedstrijd is een link naar het formulier om een score in te voeren.
+Gebruik van Java(script) is verboden.
+Zorg ervoor dat uw code geen afhankelijkheid bevat waardoor deze op een andere server niet werkt.

@@ -1,0 +1,35 @@
+Schrijf een PHP-script waarmee verschillende gebruikers een blog kunnen bijhouden. Bij openen van de site staat links een lijst van alle bloggers. De bezoeker kan in deze lijst de persoon kiezen van wie hij de blogs wil lezen. Deze blogs worden dan aan de rechterkant getoond, met de meest recente blog bovenaan.
+Na inloggen kunt u alleen uw eigen blogs bewerken/verwijderen, maar de user admin mag de blogs van alle users bewerken en verwijderen.
+De tabellen moet u zelf samenstellen in de database "dbLOI".
+
+Uw uitwerking moet aan de volgende voorwaarden voldoen:
+
+Welgevormde HTML-structuur.
+Geef het programma de titel "Inzendopdracht 051R7".
+Zorg voor een nette en duidelijke lay-out.
+Zorg voor een overzichtelijke structuur voor het opslaan van de bestanden op de server. Tip: Maak gebruik van subdirectories.
+Gebruik verschillende kleuren en minimaal één plaatje.
+Zorg voor foutafhandeling als de verbinding met de server of de database niet tot stand kan worden gebracht.
+Maak een centraal bestand waarin de gegevens voor de toegang tot de database staan.
+Maak gebruik van uw eigen error_handler (zie ook oefenopdracht 22-1).
+Op het invulformulier moet naast een verstuurbutton ook een "reset"-button staan om de ingevulde, maar nog niet verstuurde, gegevens uit het formulier te verwijderen.
+Test of alle verplichte databasevelden in het formulier zijn ingevuld en geef een melding als dit niet het geval is en geef de gebruiker de mogelijkheid om de gegevens te herstellen.
+Er moet een pagina zijn waarop de gebruiker zich kan inschrijven met zijn naam en zijn e-mailadres (als username).
+De user admin moet worden opgevoerd in de database als naam = ‘admin’, emailadres = ‘<uw emaildres>’. Deze speciale user mag NIET worden getoond in de lijst met gebruikers.
+Het wachtwoord moet automatisch worden gegenereerd, encrypted worden opgeslagen en naar de gebruiker worden gemaild.
+Er moet een pagina zijn waarop de gebruiker kan inloggen.
+Voeg een tijdsaspect aan de blog toe voor de gevallen waarin er twee keer op dezelfde dag een blog wordt geschreven.
+Er moet een menu zijn met minimaal twee opties "Home" en "Inloggen".
+Op de homepage staat links een verticaal georiënteerde lijst met de namen van alle bloggers.
+Bij binnenkomst op de site staat er rechts een welkomstekst met wat informatie over de (werking van de) site.
+Als de bezoeker een naam in de lijst kiest, worden alle blogs (datum, onderwerp en blogtekst) van die persoon getoond met de meest recente blog bovenaan.
+Als de gebruiker is ingelogd, dan wordt het menu aangepast: i.p.v. "Inloggen" staat er dan "Uitloggen" en er wordt een optie "Bewerken" toegevoegd.
+Na aanmelden of een klik op "Bewerken" verschijnt rechts een lijst van alle blogs (datum en onderwerp) van de ingelogde gebruiker (met de meest recente bovenaan) met daarachter twee opties: bewerken en verwijderen. Als er wordt gekozen voor "Bewerken", dan moet er een formulier met het onderwerp en de blogtekst worden getoond en kan het onderwerp en/of de blogtekst worden aangepast. Als er voor "Verwijderen" wordt gekozen, dan moet de blog uit de database worden verwijderd.
+De lijst met gebruikers van de blog moet constant op de pagina beschikbaar blijven. Zie het als een menu, dat een vaste plaats heeft op een site.
+Het geven van reacties op een blog valt buiten de scope van de opdracht.
+De speciale gebruiker admin mag van iedere gebruiker de blogs wijzigen of verwijderen. Als deze user is ingelogd, zullen dus altijd de opties "Bewerken" en "Verwijderen" worden getoond achter een blog.
+Gebruik van Java(script) is verboden.
+Zorg ervoor dat uw code geen afhankelijkheid bevat waardoor deze op een andere server niet werkt.
+Houd u s.v.p. zo goed mogelijk aan bovenstaande specificaties en voeg geen (grote) functionele wijzigingen of toevoegingen door.
+
+Stuur de originele bestanden (denk ook aan het script voor de tabellen!) in, ingepakt in één zipbestand.
